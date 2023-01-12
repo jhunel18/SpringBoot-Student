@@ -22,7 +22,6 @@ public class StudentController {
                                             @RequestParam String studentLname,
                                             @RequestParam String studentEmail,
                                             @RequestParam String studentCourse){
-
         return studentService.createStudent(studentFname, studentLname, studentEmail, studentCourse);
 
     }
