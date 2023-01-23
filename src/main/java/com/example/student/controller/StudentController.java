@@ -13,6 +13,7 @@ import java.util.List;
 @RequestMapping(path = "/api")
 public class StudentController {
 
+
     @Autowired
     private StudentService studentService;
     //Map the data
